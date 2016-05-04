@@ -36,13 +36,13 @@ module.exports = function(grunt) {
           },
           proxies: [
             {
-              context: '/picaweb/api',
-              host: 'sakura.coz.moe',
-              port: 443,
-              https: true,
-              protocol: 'https:',
+              context: '/api',
+              host: 'picaman.picacomic.com',
+              port: 80,
+              https: false,
+              protocol: 'http:',
               headers: {
-                'host': 'sakura.coz.moe',
+                'host': 'picaman.picacomic.com',
               }
             }
           ]

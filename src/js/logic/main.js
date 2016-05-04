@@ -3,7 +3,7 @@
   var navbarCollapse = null,
     tplFnMap = {},
     mainContainer = $('#main-container'),
-    baseUrl = '/picaweb/api/',
+    baseUrl = '/api/',
     picUrlPrefix = 'http://picacomic.com/assets/comics/';
     apiUrls = {
       getCategories: baseUrl + 'categories',
@@ -285,7 +285,7 @@
         $prevPageLoader.show();
         $window.scrollTop(1);
       }
-      
+
     }
   });
 
